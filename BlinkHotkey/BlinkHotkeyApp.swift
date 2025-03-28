@@ -10,7 +10,6 @@ import SwiftData
 
 @main
 struct BlinkHotkeyApp: App {
-    // Create a shared container for both Item & BlinkHotkeySettings
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
