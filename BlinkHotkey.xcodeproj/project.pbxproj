@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		802AE9952D96C08E0060A943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802AE9792D96C08D0060A943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802AE9802D96C08D0060A943;
+			remoteInfo = BlinkHotkey;
+		};
+		802AE99F2D96C08E0060A943 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 802AE9792D96C08D0060A943 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 802AE9802D96C08D0060A943;
+			remoteInfo = BlinkHotkey;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		802AE9812D96C08D0060A943 /* BlinkHotkey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlinkHotkey.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		802AE9942D96C08E0060A943 /* BlinkHotkeyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkHotkeyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		802AE99E2D96C08E0060A943 /* BlinkHotkeyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlinkHotkeyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		802AE9832D96C08D0060A943 /* BlinkHotkey */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlinkHotkey;
+			sourceTree = "<group>";
+		};
+		802AE9972D96C08E0060A943 /* BlinkHotkeyTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlinkHotkeyTests;
+			sourceTree = "<group>";
+		};
+		802AE9A12D96C08E0060A943 /* BlinkHotkeyUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = BlinkHotkeyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		802AE97E2D96C08D0060A943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AE9912D96C08E0060A943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AE99B2D96C08E0060A943 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		802AE9782D96C08D0060A943 = {
+			isa = PBXGroup;
+			children = (
+				802AE9832D96C08D0060A943 /* BlinkHotkey */,
+				802AE9972D96C08E0060A943 /* BlinkHotkeyTests */,
+				802AE9A12D96C08E0060A943 /* BlinkHotkeyUITests */,
+				802AE9822D96C08D0060A943 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		802AE9822D96C08D0060A943 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				802AE9812D96C08D0060A943 /* BlinkHotkey.app */,
+				802AE9942D96C08E0060A943 /* BlinkHotkeyTests.xctest */,
+				802AE99E2D96C08E0060A943 /* BlinkHotkeyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		802AE9802D96C08D0060A943 /* BlinkHotkey */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802AE9A82D96C08E0060A943 /* Build configuration list for PBXNativeTarget "BlinkHotkey" */;
+			buildPhases = (
+				802AE97D2D96C08D0060A943 /* Sources */,
+				802AE97E2D96C08D0060A943 /* Frameworks */,
+				802AE97F2D96C08D0060A943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				802AE9832D96C08D0060A943 /* BlinkHotkey */,
+			);
+			name = BlinkHotkey;
+			packageProductDependencies = (
+			);
+			productName = BlinkHotkey;
+			productReference = 802AE9812D96C08D0060A943 /* BlinkHotkey.app */;
+			productType = "com.apple.product-type.application";
+		};
+		802AE9932D96C08E0060A943 /* BlinkHotkeyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802AE9AB2D96C08E0060A943 /* Build configuration list for PBXNativeTarget "BlinkHotkeyTests" */;
+			buildPhases = (
+				802AE9902D96C08E0060A943 /* Sources */,
+				802AE9912D96C08E0060A943 /* Frameworks */,
+				802AE9922D96C08E0060A943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802AE9962D96C08E0060A943 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				802AE9972D96C08E0060A943 /* BlinkHotkeyTests */,
+			);
+			name = BlinkHotkeyTests;
+			packageProductDependencies = (
+			);
+			productName = BlinkHotkeyTests;
+			productReference = 802AE9942D96C08E0060A943 /* BlinkHotkeyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		802AE99D2D96C08E0060A943 /* BlinkHotkeyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 802AE9AE2D96C08E0060A943 /* Build configuration list for PBXNativeTarget "BlinkHotkeyUITests" */;
+			buildPhases = (
+				802AE99A2D96C08E0060A943 /* Sources */,
+				802AE99B2D96C08E0060A943 /* Frameworks */,
+				802AE99C2D96C08E0060A943 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				802AE9A02D96C08E0060A943 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				802AE9A12D96C08E0060A943 /* BlinkHotkeyUITests */,
+			);
+			name = BlinkHotkeyUITests;
+			packageProductDependencies = (
+			);
+			productName = BlinkHotkeyUITests;
+			productReference = 802AE99E2D96C08E0060A943 /* BlinkHotkeyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		802AE9792D96C08D0060A943 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					802AE9802D96C08D0060A943 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					802AE9932D96C08E0060A943 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 802AE9802D96C08D0060A943;
+					};
+					802AE99D2D96C08E0060A943 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = 802AE9802D96C08D0060A943;
+					};
+				};
+			};
+			buildConfigurationList = 802AE97C2D96C08D0060A943 /* Build configuration list for PBXProject "BlinkHotkey" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 802AE9782D96C08D0060A943;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 802AE9822D96C08D0060A943 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				802AE9802D96C08D0060A943 /* BlinkHotkey */,
+				802AE9932D96C08E0060A943 /* BlinkHotkeyTests */,
+				802AE99D2D96C08E0060A943 /* BlinkHotkeyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		802AE97F2D96C08D0060A943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AE9922D96C08E0060A943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AE99C2D96C08E0060A943 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		802AE97D2D96C08D0060A943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AE9902D96C08E0060A943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		802AE99A2D96C08E0060A943 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		802AE9962D96C08E0060A943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802AE9802D96C08D0060A943 /* BlinkHotkey */;
+			targetProxy = 802AE9952D96C08E0060A943 /* PBXContainerItemProxy */;
+		};
+		802AE9A02D96C08E0060A943 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 802AE9802D96C08D0060A943 /* BlinkHotkey */;
+			targetProxy = 802AE99F2D96C08E0060A943 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		802AE9A62D96C08E0060A943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		802AE9A72D96C08E0060A943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		802AE9A92D96C08E0060A943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlinkHotkey/BlinkHotkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlinkHotkey/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8PS8WLYZ6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushikmanian.BlinkHotkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		802AE9AA2D96C08E0060A943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BlinkHotkey/BlinkHotkey.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"BlinkHotkey/Preview Content\"";
+				DEVELOPMENT_TEAM = Z8PS8WLYZ6;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushikmanian.BlinkHotkey;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		802AE9AC2D96C08E0060A943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8PS8WLYZ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushikmanian.BlinkHotkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlinkHotkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlinkHotkey";
+			};
+			name = Debug;
+		};
+		802AE9AD2D96C08E0060A943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8PS8WLYZ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushikmanian.BlinkHotkeyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BlinkHotkey.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BlinkHotkey";
+			};
+			name = Release;
+		};
+		802AE9AF2D96C08E0060A943 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8PS8WLYZ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushikmanian.BlinkHotkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlinkHotkey;
+			};
+			name = Debug;
+		};
+		802AE9B02D96C08E0060A943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Z8PS8WLYZ6;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kaushikmanian.BlinkHotkeyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = BlinkHotkey;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		802AE97C2D96C08D0060A943 /* Build configuration list for PBXProject "BlinkHotkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AE9A62D96C08E0060A943 /* Debug */,
+				802AE9A72D96C08E0060A943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802AE9A82D96C08E0060A943 /* Build configuration list for PBXNativeTarget "BlinkHotkey" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AE9A92D96C08E0060A943 /* Debug */,
+				802AE9AA2D96C08E0060A943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802AE9AB2D96C08E0060A943 /* Build configuration list for PBXNativeTarget "BlinkHotkeyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AE9AC2D96C08E0060A943 /* Debug */,
+				802AE9AD2D96C08E0060A943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		802AE9AE2D96C08E0060A943 /* Build configuration list for PBXNativeTarget "BlinkHotkeyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				802AE9AF2D96C08E0060A943 /* Debug */,
+				802AE9B02D96C08E0060A943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 802AE9792D96C08D0060A943 /* Project object */;
+}
