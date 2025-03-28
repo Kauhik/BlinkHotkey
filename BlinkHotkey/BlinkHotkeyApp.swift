@@ -10,9 +10,11 @@ import SwiftData
 
 @main
 struct BlinkHotkeyApp: App {
+    // Create a shared container for both Item & BlinkHotkeySettings
     var sharedModelContainer: ModelContainer = {
         let schema = Schema([
             Item.self,
+            BlinkHotkeySettings.self
         ])
         let modelConfiguration = ModelConfiguration(schema: schema, isStoredInMemoryOnly: false)
 
@@ -23,10 +25,24 @@ struct BlinkHotkeyApp: App {
         }
     }()
 
+    // The detector for camera logic
+    @StateObject private var blinkDetector = BlinkDetector()
+
     var body: some Scene {
+        // Main window
         WindowGroup {
             ContentView()
+                .environmentObject(blinkDetector)
+                .modelContainer(sharedModelContainer)
         }
         .modelContainer(sharedModelContainer)
+
+        // Menu bar extra (macOS 13+)
+        MenuBarExtra("BlinkHotkey", systemImage: "eye") {
+            BlinkHotkeyMenuView()
+                .environmentObject(blinkDetector)
+                .modelContainer(sharedModelContainer)
+        }
+        // Optional: .menuBarExtraStyle(.window) to show a larger popover
     }
 }

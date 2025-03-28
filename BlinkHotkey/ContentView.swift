@@ -10,6 +10,8 @@ import SwiftData
 
 struct ContentView: View {
     @Environment(\.modelContext) private var modelContext
+    @EnvironmentObject var blinkDetector: BlinkDetector
+
     @Query private var items: [Item]
 
     var body: some View {
@@ -33,7 +35,12 @@ struct ContentView: View {
                 }
             }
         } detail: {
-            Text("Select an item")
+            VStack(spacing: 10) {
+                Text("Select an item").font(.headline)
+                Text("Blink Detection Enabled: \(blinkDetector.isDetectionEnabled ? "Yes" : "No")")
+                Text("Calibrated: \(blinkDetector.isCalibrated ? "Yes" : "No")")
+            }
+            .padding()
         }
     }
 
@@ -42,6 +49,7 @@ struct ContentView: View {
             let newItem = Item(timestamp: Date())
             modelContext.insert(newItem)
         }
+        try? modelContext.save()
     }
 
     private func deleteItems(offsets: IndexSet) {
@@ -50,10 +58,12 @@ struct ContentView: View {
                 modelContext.delete(items[index])
             }
         }
+        try? modelContext.save()
     }
 }
 
 #Preview {
     ContentView()
+        .environmentObject(BlinkDetector())
         .modelContainer(for: Item.self, inMemory: true)
 }
